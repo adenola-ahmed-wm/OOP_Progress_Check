@@ -11,15 +11,26 @@ class car {
        $this->car = $car_model;
      }
 
-   function get_name(){
+   function get_model(){
      return $this->$name
 {}}
-   function set_name($new_car) {
+   function set_model($new_car) {
      if($this->car != "Nissan Altima") {
        $this->car = strtoupper($new_name);
      }
      }
 
+/**
+ *
+ */
+class driver extends car
+{
+
+  function __construct($driver_model)
+  {
+    $this->$set_model($driver_car);
+  }
+}
 
 
 
