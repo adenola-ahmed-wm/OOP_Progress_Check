@@ -12,13 +12,15 @@ class car {
      }
 
    function get_model(){
-     return $this->$name
-{}}
+     return $this->model;
+}
+
    function set_model($new_car) {
      if($this->car != "Nissan Altima") {
        $this->car = strtoupper($new_name);
      }
      }
+   }
 
 /**
  *
